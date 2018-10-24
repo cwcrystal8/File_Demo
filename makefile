@@ -1,8 +1,8 @@
-all: driver1.o
-	gcc driver1.o
+all: driver.o
+	gcc driver.o
 
-driver1.o: driver1.c
-	gcc -c driver1.c
+driver.o: driver.c
+	gcc -c driver.c
 
 run:
 	./a.out
